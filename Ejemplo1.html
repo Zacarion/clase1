@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<head>
+    <style>
+        .principal{
+            width: 100%;
+            height: 500px;
+            display: flex;
+            border: 1px solid;
+        }
+        .hijo{
+            width: 50%;
+            background-color: aqua;
+        }
+        .hijo.dos{
+            background-color: rgb(37, 134, 53)
+        }
+        .secundario{
+            width: 100%;
+            height: 250px;
+            background-color: blueviolet;
+        }
+        .secundario.caja{
+            background-color: red;
+        }
+        .nieto{
+            display: flex;
+            width: 100%;
+            height: 250px;
+            background-color: brown;
+        }
+        .nieto.tres{
+            background-color: blue;
+        }
+        .sobrinos{
+            width: 50%;
+            height: 250px;
+            background-color: aquamarine;
+        }
+        .sobrinos.small{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <section class='principal'>
+        
+        <div class='hijo'>
+            <div class='secundario'></div>
+            <div class='secundario caja'></div>
+        </div>
+
+        <div class='hijo dos'>
+            <div class = 'nieto'>
+                <div class="sobrinos"></div>
+                <div class="sobrinos small"></div>
+            </div>
+            <div class="nieto tres"></div>
+        </div>
+
+    </section>
+</body>
+
+</html>
