@@ -1,0 +1,14 @@
+body{
+    width: flex;
+    height: 500px;
+}
+section{
+    width: flex;
+    height: 50%;
+    display: flex;
+}
+section div{
+    width: 50%;
+    background-color: aquamarine;
+    border: 1px solid;
+}
